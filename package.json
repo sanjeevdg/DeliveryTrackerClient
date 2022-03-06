@@ -1,0 +1,38 @@
+{
+  "name": "myTrackeeApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "bson": "^4.6.1",
+    "cors": "^2.8.5",
+    "haversine": "^1.1.1",
+    "react": "17.0.2",
+    "react-native": "0.67.3",
+    "react-native-geolocation-service": "^5.3.0-beta.4",
+    "react-native-get-random-values": "^1.7.2",
+    "react-native-maps": "^0.30.1",
+    "realm": "^10.13.0",
+    "socket.io-client": "^4.4.1",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/runtime": "^7.17.2",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.68.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
